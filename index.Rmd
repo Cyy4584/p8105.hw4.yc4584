@@ -6,3 +6,19 @@ output:
     toc_float: true
     code_folding: hide
 ---
+
+# Introductory 
+At beginning, I will briefly introduce myself including my life and academic background.
+
+## Life
+I was born in a small town in China, which is Harbin. Here is the picture taken in a winter day in Harbin.
+
+
+<img src="images/Harbin_Opera_House_by_Iwan_Baan11.jpg" style="width:75%">
+
+As you could see, my hometown is a city of ice and snow. The average temperature in winter is around -20 degrees Celsius. Also, it is called "Ice city" because of its ice sculptures and winter activities.
+
+Here is a picture of famous ice sculptures.
+
+
+<img src="images/ice.jpg" style="width:75%">
