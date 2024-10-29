@@ -6,7 +6,7 @@ navbar:
     - text: "experience"
       href: experience.html
     - text: "dashboard"
-      href: dashboard.html
+      href: dashboard_sub.html
     - icon: fa-envelope fa-lg
       href: mailto:<cuiyingyu4584@gmail.com>
     - icon: fa-github fa-lg
