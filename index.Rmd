@@ -1,0 +1,8 @@
+---
+title: "homework 4"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: hide
+---
