@@ -10,7 +10,7 @@ navbar:
     - icon: fa-envelope fa-lg
       href: mailto:<cuiyingyu4584@gmail.com>
     - icon: fa-github fa-lg
-      href: http://github.com/<YOUR_GH_NAME>/
+      href: http://github.com/cyy4584/
 output:
   html_document:
     theme: cerulean
