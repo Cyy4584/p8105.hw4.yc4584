@@ -22,3 +22,20 @@ Here is a picture of famous ice sculptures.
 
 
 <img src="images/ice.jpg" style="width:75%">
+
+Because of my hometown's cold weather, I have developed a strong interest in winter sports, especially skiing and skating. You could imagine the view that all the people are skating on the frozen river in winter.
+
+Also, the 9th Asian Winter Games will be held in Harbin 2025. If you are interested in this, you could browse the website below.
+[9th Asian Winter Games](https://www.harbin2025.com/english/index.html)
+
+
+## Academic Background
+
+I graduated from Harbin Medical University, majoring in Clinical Medicine. Here is a corner of my medical school.
+
+<img src="images/hmu.jpg" style="width:75%">
+
+During five years in medical school, I have participated in rotations between different departments and gained lots of clinical experience. In the third year around, I gradually felt interested in the field of epidemiology and public health. During the following years, I have done some research about chronic disease interventions and health policy analysis.
+If you are interested in my research, you could see the section "experience" in upper right corner of this webpage.
+
+
