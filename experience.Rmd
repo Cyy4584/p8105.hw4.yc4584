@@ -6,3 +6,44 @@ output:
     toc_float: true
     code_folding: hide
 ---
+# Here are my academic experiences.
+## Education
+- **Bachelor of Medicine in Clinical Medicine** (MD)  
+  Harbin Medical University, China  2017 - 2022
+  First-class Merit Scholarship (university level top 1%) (2018-2019)
+  Second-class Merit Scholarship (university level top 5%) (2017-2018&2019-2020)
+  
+## Research Experience
+- **Research Assistant**  
+  Harbin Medical University in Professor Maoyi Tian's Group, China  2023  
+  - Profect 1: Effectiveness of an intervention in the management of hypertension and type II diabetes in primary care settings in selected regions of China (the ‘SAPPHIRE’ study)
+    Significantly contributed to the development of research proposal and statistical analytical plan, with a special focus on defining patient eligibility criteria and implementing robust sampling methods.
+    Assisted in preparing essential documentation for ethical approval.
+    
+  - Project 2: Community-based multimorbidity study in rural China (the ‘COMMON’ study)
+    Main contributor to the design and validation of the fieldwork questionnaire. 
+    Optimized research implementation and sample gathering process to facilitate participant recruitment.
+    
+
+- **Research Assistant**  
+  Harbin Medical University in Professor Hong Zhang's Group, China  2022-2023
+  
+  - Project 1: The prevalence of dry eye disease in the population exposed to constant cold temperatures in northeast China
+    Conducted a comprehensive literature review to identify the knowledge gap regarding the prevalence and risk factors of dry eye in northeast China, leading to the formulation of a focused research question.
+    Utilized lipidomics and GC-MS techniques to analyze the quantitative variation of liquid components extracted from the meibomian gland in the eyelids of individuals among the selected population exposed to constant cold temperatures in 
+  
+  - Project 2: The relationship between meibomian gland dysfunction and Demodex folliculorum-induced acne vulgaris
+    Implemented a cluster survey to collect demographics and clinical information from patients with and without Demodex folliculorum-induced acne vulgaris.
+    Collected study samples from the root of patients’ eyelashes and observed them under optical microscopes.
+
+
+## Hospital Placement
+- **Intern**  
+  The First Affiliated Hospital of Harbin Medical University, China  2021-2022  
+  
+  - Shadowed clinicians and provided routine medical care to over 500 patients across different clinical departments, including the Depts of Neurology, Ophthalmology, Respiratory Medicine, etc. 
+  
+  - Familiarized with various chronic disease illness patterns and multimorbidity.
+
+
+
