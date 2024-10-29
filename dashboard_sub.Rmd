@@ -1,0 +1,79 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source_code: embed
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+
+library(flexdashboard)
+```
+
+```{r basis data set filter} 
+data("ny_noaa")
+
+ny_noaa = 
+  ny_noaa |> 
+  mutate(year = year(date),
+         month = month(date),
+         day = day(date)) |> 
+  mutate(tmax = as.numeric(tmax)) |>
+  mutate(tmin = as.numeric(tmin)) |> 
+  drop_na() |> 
+  filter(year == 2010 & month >= 9) |> 
+  select(-date, id, tmax, tmin, year, month, day)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r scatter plot}
+ny_noaa |> 
+  group_by(id) |>
+  summarize(tmin = mean(tmin, na.rm = TRUE),
+            tmax = mean(tmax, na.rm = TRUE)) |>
+  mutate(text_label = str_c("Meantmax: ", tmax, "\nMeantmin: ", tmin)) |>
+  plot_ly(x = ~tmin, y = ~tmax, type = "scatter", mode = "markers", color = ~tmax, text = ~text_label, alpha = 0.5) |> 
+  layout(title = "Max and min Temperature in month(9-12) in NYC (2010)",
+         xaxis = list(title = "Mean Min Temperature (tenths of Celsius)"),
+         yaxis = list(title = "Mean Max Temperature (tenths of Celsius)"))
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r box plot}
+ny_noaa |> 
+  group_by(month) |> 
+  plot_ly(x = ~month, y = ~tmax, type = "box", colors = "viridis") |> 
+  layout(title = "Max Temperature in month(9-12) in NYC (2010)",
+         xaxis = list(title = "Month"),
+         yaxis = list(title = "Max Temperature (tenths of Celsius)"))
+```
+
+### Chart C
+
+```{r bar plot}
+ny_noaa |> 
+  group_by(month, id) |>                   
+  summarise(avg_tmax = mean(tmax, na.rm = TRUE)) |> 
+  ungroup() |> 
+  filter(avg_tmax >= 100) |>                      
+  group_by(month) |>                        
+  summarise(count_id = n_distinct(id)) |> 
+  plot_ly(x = ~month, y = ~count_id, type = "bar", colors = "viridis") |> 
+  layout(title = "Count of weather stations with avg max temperature >= 100 in month(9-12) in NYC (2010)",
+         xaxis = list(title = "Month"),
+         yaxis = list(title = "Count of Weather Stations"))
+```
+
